@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Global css*/
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+} 
+.row{
+    width: 100%;
+    float: left;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+a,a :hover{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* Global css end here */
+
+/*header-section css start*/
+.header-section{
+    width: 100%;
+    float: left;
+    background-color: #F6F9F9;
+}
+.logo{
+    padding: 15px 0px;
+
+}
+.nav{
+    padding: 24px 0px;
+    float: right;
+}
+
+.nav ul li{
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2d3950;
+}
+
+.nav ul li a{
+    transition: 1s;
+}
+
+.nav ul li a:hover{
+    color: #f6f9f9;
+    padding: 10px;
+    background: #15a4fa;
+}
+/* header-section css end here */
+
+/* banner section css start here */
+.banner-section{
+    width: 100%;
+    float: left;
+    background: url(../img/Banner.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 70px 0 40px;
+    
+}
+
+.banner-inner{
+width: 100%;
+float: left;
+padding: 80px 0;
+text-align: center;
+}
+.banner-inner h1{
+    font-size: 80px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+hr{
+    width: 40%;
+    height: 2px;
+    background-color: #15a4fa;
+    align-self: center;
+    margin: 2px auto;
+    border: none;
+}
+
+.banner-inner p{
+    font-size: 20px;
+    color: white;
+    margin: 50px 0px;
+}
+
+.banner-inner .btn-info{
+    border: 2px solid #15a4fa;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.banner-inner .btn-info:hover{
+    border: 1px;
+    color: white;
+    background: 1px solid#15a4fa;
+    transition: 2s;
+}
+.icon{
+    margin-top: 100px;
+}
+/* Banar section Css End here */
+
+/* Body section one Css Start here */
+.body-section{
+width: 100%;
+float: left;
+background-color: #f7f8fa;
+padding: 70px 0px 40px;
+}
+
+.body-inner{
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Body section one css end here */
+
+/* Body section tow css start here */
+.body-section-tow{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+/* Body section tow end here */
+
+/* Body secton three start here */
+.body-section-three{
+    margin-top: 50px;
+    background-color: #f7f8fa;
+}
